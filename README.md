@@ -8,7 +8,7 @@ This is a [classic IBM infographic](https://www.ibmbigdatahub.com/infographic/fo
 
 ### Big Data Landscape
 
-This [blog post](https://mattturck.com/data2019/) and [associated infographic](http://mattturck.com/wp-content/uploads/2019/07/2019_Matt_Turck_Big_Data_Landscape_Final_Fullsize.png) have tracked the exploding numbers of players in the business of big data.
+This [blog post by Matt Turck](https://mattturck.com/data2019/) and [associated infographic](http://mattturck.com/wp-content/uploads/2019/07/2019_Matt_Turck_Big_Data_Landscape_Final_Fullsize.png) have tracked the exploding numbers of players in the business of big data.
 
 ### Venn Diagram of Data Science
 
