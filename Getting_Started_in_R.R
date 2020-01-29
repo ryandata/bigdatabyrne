@@ -226,29 +226,70 @@ ggplot(my_nugget$`Data Nuggets`, aes(Center1,Center4))+geom_point()+labs(x="cara
                                                                           "price")
 # further examples
 
-## small example
-X = cbind.data.frame(rnorm(10^4),
-                     rnorm(10^4),
-                     rnorm(10^4))
-suppressMessages({
-  my.DN = create.DN(x = X,
-                    RS.num = 10^3,
-                    DN.num1 = 500,
-                    DN.num2 = 250,
-                    no.cores = 0,
-                    make.pbs = FALSE)
-})
+## Generate Datasets N=5*10^5
+set.seed(3217)
+X = cbind.data.frame(X1=rnorm(5*10^5),
+                     X2=rnorm(5*10^5),
+                     X3=rnorm(5*10^5))
+## We make 3 clusters
+X[,1]= X[,1]+2*rep(-1:1,c(1.67*10^5,1.66*10^5,1.67*10^5))
+X[,2]= X[,2]+3*rep(c(0,1,0),c(1.67*10^5,1.66*10^5,1.67*10^5))
+
+## But they are hard to see in a scatter plot
+plot(X[,1],X[,2],pch=".",col=2,cex=7)
+
+## So we create the data nuggets
+my.DN = create.DN(x = X,
+                  RS.num = 10^4,
+                  DN.num1 = 500,
+                  DN.num2 = 250,
+                  no.cores = 4)
+
 my.DN$`Data Nuggets`
 my.DN$`Data Nugget Assignments`
+
+## Refining step
+my.DN2 = refine.DN(x = X,
+                   DN = my.DN,
+                   scale.tol = .9,
+                   shape.tol = .9,
+                   min.nugget.size = 2,
+                   max.nuggets = 1000,
+                   scale.max.splits = 5,
+                   shape.max.splits = 5,
+                   no.cores = 1)
+
+my.DN2$`Data Nuggets`
+my.DN2$`Data Nugget Assignments`
+
+## Define the centers and weights
+centers=my.DN2$`Data Nuggets`[,2:4]
+w=my.DN2$`Data Nuggets`[,5]
+
+## Plot the data nuggets
+plot(centers[,1],centers[,2],pch=16,col=2,cex=sqrt(w)/18)
+
+## Cluster the data nuggets
+DN.clus = WKmeans(dataset =centers,k = 3,
+                  obs.weights = w,
+                  num.init = 3,
+                  max.iterations = 30,
+                  reassign.prop = .33)
+
+## Plot clusters
+plot(centers[,1],centers[,2],pch=16,col=DN.clus[[1]],cex=sqrt(w)/18)
+
 ## large example
 X = cbind.data.frame(rnorm(10^6),
                      rnorm(10^6),
                      rnorm(10^6),
                      rnorm(10^6),
                      rnorm(10^6))
+
 my.DN = create.DN(x = X,
                   RS.num = 10^5,
                   DN.num1 = 10^4,
                   DN.num2 = 2000)
+
 my.DN$`Data Nuggets`
 my.DN$`Data Nugget Assignments`
