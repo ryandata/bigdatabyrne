@@ -17,3 +17,15 @@ Another classic infographic defining data science, originally developed by Conwa
 ### Big Data and Privacy
 
 Privacy is one lens through which to understand both the ethical challenges and the enormous scope of big data in our lives and society.  The [New York Times Privacy Project](https://www.nytimes.com/series/new-york-times-privacy-project) is one good place to review recent developments, especially the article on [cell phone location data](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html).
+
+## For the February 12 class
+
+### Workshop links
+
+See the [graduate specialist workshops](https://libguides.rutgers.edu/graduatespecialist/workshops) for upcoming Python, R, Text mining, GIS, and qualitative data workshops on campus.
+
+The [R libguide](https://libguides.rutgers.edu/data_R) has additional information about learning R, including links to videos.
+
+### Data visualization - ggplot2 and Shiny
+
+We will use the scripts and demos from the [ryandata Github page](https://github.com/ryandata/tidyverse_approach) to illustrate these techniques.
