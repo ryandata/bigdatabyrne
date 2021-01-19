@@ -14,11 +14,17 @@ This [blog post by Matt Turck](https://mattturck.com/data2019/) and [associated 
 
 Another classic infographic defining data science, originally developed by Conway, and elaborated on this [KDnuggets blog post](https://www.kdnuggets.com/2019/02/essential-data-science-venn-diagram.html), along with a [compilation of past efforts](https://www.kdnuggets.com/2016/10/battle-data-science-venn-diagrams.html).
 
+### For January 20 Class
+
+Athey, ["Beyond prediction: Using big data for policy problems"](http://science.sciencemag.org.proxy.libraries.rutgers.edu/content/355/6324/483), **Science**, 03 Feb 2017. 
+
+Gambhir et. al.,["Toward achieving precision health"](https://stm-sciencemag-org.proxy.libraries.rutgers.edu/content/10/430/eaao3612), **Science Translational Medicine**, 28 Feb 2018.
+
 ### Big Data and Privacy
 
 Privacy is one lens through which to understand both the ethical challenges and the enormous scope of big data in our lives and society.  The [New York Times Privacy Project](https://www.nytimes.com/series/new-york-times-privacy-project) is one good place to review recent developments, especially the article on [cell phone location data](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html).
 
-## For the February 12 class
+## For the February 10 class
 
 ### Workshop links
 
