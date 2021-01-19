@@ -16,11 +16,11 @@ Another classic infographic defining data science, originally developed by Conwa
 
 ## For January 20 Class
 
-Athey, ["Beyond prediction: Using big data for policy problems"](http://science.sciencemag.org.proxy.libraries.rutgers.edu/content/355/6324/483), **Science**, 03 Feb 2017. 
+Athey, ["Beyond prediction: Using big data for policy problems"](http://science.sciencemag.org.proxy.libraries.rutgers.edu/content/355/6324/483), *Science*, 03 Feb 2017. 
 
-Gambhir et. al.,["Toward achieving precision health"](https://stm-sciencemag-org.proxy.libraries.rutgers.edu/content/10/430/eaao3612), **Science Translational Medicine**, 28 Feb 2018.
+Gambhir et. al.,["Toward achieving precision health"](https://stm-sciencemag-org.proxy.libraries.rutgers.edu/content/10/430/eaao3612), *Science Translational Medicine*, 28 Feb 2018.
 
-Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libraries.rutgers.edu/articles/541559a), **Nature**, 26 January 2017.
+Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libraries.rutgers.edu/articles/541559a), *Nature*, 26 January 2017.
 
 ### Big Data and Privacy
 
