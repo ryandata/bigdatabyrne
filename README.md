@@ -14,7 +14,7 @@ This [blog post by Matt Turck](https://mattturck.com/data2019/) and [associated 
 
 Another classic infographic defining data science, originally developed by Conway, and elaborated on this [KDnuggets blog post](https://www.kdnuggets.com/2019/02/essential-data-science-venn-diagram.html), along with a [compilation of past efforts](https://www.kdnuggets.com/2016/10/battle-data-science-venn-diagrams.html).
 
-### For January 20 Class
+## For January 20 Class
 
 Athey, ["Beyond prediction: Using big data for policy problems"](http://science.sciencemag.org.proxy.libraries.rutgers.edu/content/355/6324/483), **Science**, 03 Feb 2017. 
 
