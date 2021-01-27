@@ -54,6 +54,8 @@ Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libr
 
 [Python](https://python.org)
 
+[Anaconda](https://anaconda.com)
+
 [Sci-kit Learn](https://scikit-learn.org)
 
 ### Big Data and Privacy
