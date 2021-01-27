@@ -22,6 +22,14 @@ Gambhir et. al.,["Toward achieving precision health"](https://stm-sciencemag-org
 
 Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libraries.rutgers.edu/articles/541559a), *Nature*, 26 January 2017.
 
+## For January 27 Class
+
+[R for Data Science](https://r4ds.had.co.nz)
+
+[Workshop schedule](https://libcal.rutgers.edu/nblworkshops)
+
+[R libguide](https://libguides.rutgers.edu/data_R)
+
 ### Big Data and Privacy
 
 Privacy is one lens through which to understand both the ethical challenges and the enormous scope of big data in our lives and society.  The [New York Times Privacy Project](https://www.nytimes.com/series/new-york-times-privacy-project) is one good place to review recent developments, especially the article on [cell phone location data](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html).
