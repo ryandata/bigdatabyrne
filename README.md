@@ -24,11 +24,25 @@ Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libr
 
 ## For January 27 Class
 
+[R](https://r-project.org)
+
+[RStudio](https://rstudio.com)
+
+[RStudio Cloud](https://rstudio.cloud)
+
 [R for Data Science](https://r4ds.had.co.nz)
 
 [Workshop schedule](https://libcal.rutgers.edu/nblworkshops)
 
 [R libguide](https://libguides.rutgers.edu/data_R)
+
+[Kaggle](https://kaggle.com)
+
+[Jupyter](https://jupyter.org)
+
+[Python](https://python.org)
+
+[Sci-kit Learn](https://scikit-learn.org)
 
 ### Big Data and Privacy
 
