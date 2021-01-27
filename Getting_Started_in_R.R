@@ -1,5 +1,5 @@
 ### Sample R code for Byrne Big Data Seminar
-### Spring 2020 - Ryan Womack
+### Spring 2021 - Ryan Womack
 
 
 ###################################################
@@ -8,7 +8,9 @@
 install.packages("ISwR", dependencies=TRUE)
 install.packages("ggplot2", dependencies=TRUE)
 install.packages("dplyr", dependencies=TRUE)
-install.packages("googleVis", dependencies=TRUE)
+install.packages("RMySQL",dependencies=TRUE) 
+install.packages("DBI", dependencies=TRUE) 
+install.packages("datanugget", dependencies=TRUE)
 update.packages()
 
 
@@ -179,8 +181,6 @@ cutdiamonds<- filter(diamonds, cut %in% c("Ideal", "Premium"), color %in% c("D",
 ###################################################
 ### Databases 
 ###################################################
-install.packages("RMySQL",dependencies=TRUE) 
-install.packages("DBI",dependencies=TRUE) 
 library(RMySQL) 
 library(DBI) 
 
@@ -209,21 +209,19 @@ dbDisconnect(con)
 ###################################################
 ### Data Nuggets
 ###################################################
-
-install.packages("datanugget")
 library(datanugget)
 
 # create numeric-only version of diamonds data
 diamonds2<-as.data.frame(diamonds[,-c(2:4)])
 
 # create nuggets
-my_nugget<-create.DN(diamonds2, RS.num=10000, DN.num1=4000)
+my_nugget<-create.DN(diamonds2, RS.num=10000, DN.num1=2000, DN.num2=200, no.cores=0)
 my_nugget$`Data Nuggets`
 my_nugget$`Data Nugget Assignments`
 
 ggplot(diamonds2, aes(carat,price))+geom_point()
-ggplot(my_nugget$`Data Nuggets`, aes(Center1,Center4))+geom_point()+labs(x="carat",y=
-                                                                          "price")
+ggplot(my_nugget$`Data Nuggets`, aes(Center1,Center4))+geom_point()+labs(x="carat",y="price")
+
 # further examples
 
 ## Generate Datasets N=5*10^5
@@ -243,7 +241,7 @@ my.DN = create.DN(x = X,
                   RS.num = 10^4,
                   DN.num1 = 500,
                   DN.num2 = 250,
-                  no.cores = 4)
+                  no.cores = 0)
 
 my.DN$`Data Nuggets`
 my.DN$`Data Nugget Assignments`
@@ -257,7 +255,7 @@ my.DN2 = refine.DN(x = X,
                    max.nuggets = 1000,
                    scale.max.splits = 5,
                    shape.max.splits = 5,
-                   no.cores = 1)
+                   no.cores = 0)
 
 my.DN2$`Data Nuggets`
 my.DN2$`Data Nugget Assignments`
@@ -289,7 +287,8 @@ X = cbind.data.frame(rnorm(10^6),
 my.DN = create.DN(x = X,
                   RS.num = 10^5,
                   DN.num1 = 10^4,
-                  DN.num2 = 2000)
+                  DN.num2 = 2000,
+                  no.cores = 0)
 
 my.DN$`Data Nuggets`
 my.DN$`Data Nugget Assignments`
