@@ -24,6 +24,8 @@ Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libr
 
 ## For January 27 Class
 
+### R basics
+
 [R](https://r-project.org)
 
 [RStudio](https://rstudio.com)
@@ -40,7 +42,13 @@ Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libr
 
 [R libguide](https://libguides.rutgers.edu/data_R)
 
+### Machine Learning and Python
+
 [Kaggle](https://kaggle.com)
+
+[R for Machine Learning - 20 packages](https://www.ubuntupit.com/best-r-machine-learning-packages/)
+
+[more R for ML](https://www.geeksforgeeks.org/introduction-to-machine-learning-in-r/)
 
 [Jupyter](https://jupyter.org)
 
