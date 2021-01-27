@@ -30,9 +30,13 @@ Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libr
 
 [RStudio Cloud](https://rstudio.cloud)
 
+[tidyverse](https://tidyverse.org)
+
+[ggplot2 examples](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
+
 [R for Data Science](https://r4ds.had.co.nz)
 
-[Workshop schedule](https://libcal.rutgers.edu/nblworkshops)
+[New Brunswick Libraries workshop schedule](https://libcal.rutgers.edu/nblworkshops)
 
 [R libguide](https://libguides.rutgers.edu/data_R)
 
