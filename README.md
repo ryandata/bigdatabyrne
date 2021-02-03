@@ -58,6 +58,20 @@ Landhuis, ["Neuroscience: Big brain, big data"](http://www.nature.com.proxy.libr
 
 [Sci-kit Learn](https://scikit-learn.org)
 
+## For the February 3 Class
+
+[10 Machine Learning Methods Every Data Scientist Should Know](https://towardsdatascience.com/10-machine-learning-methods-that-every-data-scientist-should-know-3cc96e0eeee9)
+
+[The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) and [Introduction to Statistical Learning book](https://link-springer-com.proxy.libraries.rutgers.edu/book/10.1007/978-1-4614-7138-7) and [website with R code](https://www.statlearning.com)
+
+[High Dimensional Data](https://www.statisticshowto.datasciencecentral.com/dimensionality/), [High Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), and also [High Dimensional Statistics](https://www.cambridge.org/core/books/highdimensional-statistics/8A91ECEEC38F46DAB53E9FF8757C7A4E)
+
+[Recent Advances in Dimension Reduction](https://www.mdpi.com/2504-4990/1/1/20)
+
+[Approximate Nearest Neighbor Search](https://arxiv.org/abs/1610.02455)
+
+[Visualizing structure and transitions in high-dimensional biological data](https://www-nature-com.proxy.libraries.rutgers.edu/articles/s41587-019-0336-3)
+
 ### Big Data and Privacy
 
 Privacy is one lens through which to understand both the ethical challenges and the enormous scope of big data in our lives and society.  The [New York Times Privacy Project](https://www.nytimes.com/series/new-york-times-privacy-project) is one good place to review recent developments, especially the article on [cell phone location data](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html).
